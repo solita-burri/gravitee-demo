@@ -2,7 +2,7 @@
 <img src="${api.picture}" style="float: right;max-width: 60px;"/>
 </#if>
 
-# Welcome to the API page ${api.name}(${api.version})!
+# Welcome to the API page of ${api.name}(${api.version})!
 
 The API is <span style="text-transform: lowercase;color: <#if api.state=='STARTED'>green<#else>red</#if>">${api.state}</span>.
 
