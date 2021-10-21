@@ -28,6 +28,10 @@ Sharding tags: ${api.tags?join(", ")}
 
 ${api.description}
 
+## Changelog
+
+v1.0 - Initial release
+
 ## How to access
 
 The API can be accessed through https://api.company.com${api.proxy.contextPath}:
